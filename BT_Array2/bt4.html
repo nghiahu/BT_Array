@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let array = [4,3,7,2,5,-7,1,6,-2,8,-4]
+    let a = [];
+    let b = [];
+
+    for(let i = 0;i <array.length;i++){
+        if(array[i] % 2 == 0){
+            a.push(array[i])
+        }else{
+            b.push(array[i])        
+        }
+    }
+    console.log("Mảng chẵn: " + a)
+    console.log("Mảng lẻ: " + b)
+</script>
+</body>
+</html>
